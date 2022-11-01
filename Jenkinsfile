@@ -4,10 +4,7 @@ agent any
      jdk 'JAVA_HOME'
      maven 'M2_HOME'
   }
-  	  environment {
 
-        DOCKERHUB_CREDENTIALS = credentials('DockerHubID')
-    }
 
         stages{
 
